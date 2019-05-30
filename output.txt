@@ -1,0 +1,36 @@
+Laima@DESKTOP-S71936C MINGW64 ~/Nextcloud/Uni/2019k/Töövahendid/cse-prac7-ci (master)
+$ git commit -m "Added"
+============================= test session starts =============================
+platform win32 -- Python 3.7.1, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: C:\Users\Laima\Nextcloud\Uni\2019k\T▒▒vahendid\cse-prac7-ci
+collected 1 item
+
+test_sample.py F                                                         [100%]
+
+================================== FAILURES ===================================
+_________________________________ test_answer _________________________________
+
+    def test_answer():
+>       assert inc(3) == 5
+E       assert 6 == 5
+E        +  where 6 = inc(3)
+
+test_sample.py:5: AssertionError
+========================== 1 failed in 0.10 seconds ===========================
+
+
+Laima@DESKTOP-S71936C MINGW64 ~/Nextcloud/Uni/2019k/Töövahendid/cse-prac7-ci (master)
+$ git commit -m "2nd"
+============================= test session starts =============================
+platform win32 -- Python 3.7.1, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: C:\Users\Laima\Nextcloud\Uni\2019k\T▒▒vahendid\cse-prac7-ci
+collected 1 item
+
+test_sample.py .                                                         [100%]
+
+========================== 1 passed in 0.05 seconds ===========================
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
